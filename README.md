@@ -7,7 +7,7 @@ Podstawowe metody tworzenia systemów rekomendacyjnych
 Przedstawiono 3 podejścia:
 - **Collaborative Filtering** - podaejście bazujące na iterakcjach pomiędzy użytkownikami a obiektami. Interakcją może być ocena lub sam fakt jej zajścia. Wykorzystana została bibloteka surprise i zbadany model KNN oraz modele faktoryzacji macieerzy SVD i NFD
 - **Content-based filtering** - podejście bazujące na informacji o produkcie nie biorąc pod uwagę opinie i interakcji z innymi użytkownikami. Znajdują zastosowanie w sytuacji, gdy znamy dane o przedmiocie, a nie użytkowniku. Jako reprezentacje przedmiotów wykorzystano algorytm TF-IDF bazując na rodzaju filmów.
-- **KNN**
+- **KNN** - zaimplementowany knn korzystał z informacji o ocenach użytkowników. Wykorzystaliśmy 3 miary odległości: cosinusową, euklidesową oraz manhattan. Uzyskany system rekomendacji zwraca najbardziej podobne filmy dla podanego filmu
 
 ## Zadanie 2
 Zaawansowane metody tworzenia systemów rekomendacyjnych
