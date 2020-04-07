@@ -31,3 +31,17 @@ Zadanie drugie ze względu na złożoność zrealizowano na zbioerze 100k, któr
 - 1700 filmów
 - Każdy użytkownik ocenił przynajmniej 20 filmów.
 - Oceny zawierają informację o dacie wystawienia (sekwencyjność)
+
+## Ewaluacja
+Metody zostały ocenione i porównanie za pomocą miary *hit* *rate* *50*. Miara ta mówi o tym czy testowy przypadek znalazł się w rankingu top 50 proponowanych filmów. 
+
+- Explicit Factorization - 0.050
+- Implicit Factorization - 0.085
+- Implicit Sequential POOLING - 0.169
+- Implicit Sequential CNN - 0.125
+- Implicit Sequential LSTM - 0.177
+- Caser - 0.294
+- Association rules - 0.074
+
+Najlepsze wyniki uzyskała metoda Convolutional Sequence Embedding Recommendation Mode (Caser) dla parametru learning rate - 0.02, biorąc pod uwagę 5 poprzednich filmów.
+
