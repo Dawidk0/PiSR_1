@@ -19,4 +19,15 @@ Przedstawiono 3 podejścia:
  Metoda ta polega na reprezentacji przedmiotów za pomocą wektorów osadzeń. Następnie dla uporządkowanych chronologicznie danych tworzona jest macierz, która jest przetwarzana przez sieć konwolucyjną w celu uchwycenia preferencji użytkownika i uwzględnieniu sekwencyjności danych.
  
 ## Dataset
-Badania przeprowadzono na zbiorach **[MovieLens](http://files.grouplens.org/datasets/movielens/)**
+Badania przeprowadzono na zbiorach z **[MovieLens](http://files.grouplens.org/datasets/movielens/)**
+Pierwsze zadanie przepowadzone dla zbioru 10 mln recenzji:
+- 10 mln ocen
+- 10 tys. filmów
+- 72 tys. użytkowników
+
+Zadanie drugie ze względu na złożoność zrealizowano na zbioerze 100k, który składa się:
+- 100 tys. ocen
+- ok. 1000 użytkowników
+- 1700 filmów
+- Każdy użytkownik ocenił przynajmniej 20 filmów.
+- Oceny zawierają informację o dacie wystawienia (sekwencyjność)
